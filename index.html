@@ -35,7 +35,7 @@
         <div><h4 class="font-bold text-xl">Courses</h4></div>
       </div>
     </div>
-    <div class="sm:hidden text-white">
+    <div class="md:hidden text-white block">
       <i class="fa-solid fa-bars"></i>
     </div>
     </div>
@@ -44,13 +44,121 @@
   <!-- banner -->
 
   <section>
-    <div class="h-[calc(100vh-110px)] w-[100%] relative"><img src="./assets//pexels-lukas-rychvalsky-670720.jpg" alt="banner" class="sm:object-cover w-[100%] h-[100%]">
-    <div class="absolute top-44 sm:right-16 right-[-200px] text-white w-[700px] text-center">
+    <div class="sm:h-[calc(100vh-110px)] sm:w-[100%] relative overflow-y-hidden">
+      <img src="./assets//pexels-lukas-rychvalsky-670720.jpg" alt="banner" class="sm:object-cover sm:w-[100%] sm:h-[100%] overflow-hidden">
+    <div class="absolute sm:top-44 top-2 sm:right-16 right-[-200px] text-white w-[700px] text-center">
       <h1 class="sm:text-4xl font-bold text-center mt-3">Travel smarter, cheaper, longer</h1>
       <h3 class="sm:text-2xl font-bold text-center mt-3">Where do you want to go?</h3>
       <input type="text" placeholder="Enter Your Destination" class="border-none outline-none p-4 sm:w-[70%] w-[200px] text-center mt-3 rounded-xl shadow-md text-black focus:border-blue-600">
     </div>
     </div>
   </section>
+
+  <!-- newsleter -->
+  <section class="hidden sm:block">
+<div class="w-[100%] bg-blue-600 h-[150px] text-white flex place-items-center justify-center gap-7 p-5">
+  <div class="col-span-2"><h class="font-bold text-2xl">GET MY BEST TIPS <br> SENT STRAIGHT TO YOU!</h1></div>
+  <div class="col-span-4"><input type="text" placeholder="First Name" class="h-7 p-4 rounded-lg outline-none border-none text-black"></div>
+  <div class="col-span-4"><input type="email" placeholder="Email" class="h-7 p-4 rounded-lg outline-none border-none text-black"></div>
+ <div class="col-span-2"><button class="p-3 rounded-lg border-none bg-green-700">Send Me Tips</button></div>
+</div>
+  </section>
+
+  <!-- grid section -->
+  <section class="mt-12">
+    <h1 class="text-center uppercase font-bold text-3xl">Start Planning Your Trip</h1>
+    <div class="grid sm:grid-rows-3 sm:grid-cols-12 gap-3 place-items-center mb-4 bg-slate-400 p-6">
+  
+      <!-- First Row -->
+      <div class="col-span-1 sm:col-span-3"></div>
+      <div class="relative w-64 h-40 col-span-5 sm:col-span-2 sm:mr-10">
+        <!-- Image -->
+        <img src="./assets/get-inspired-300x150.jpg" alt="Image" class="w-full h-full object-cover">
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black bg-opacity-50 sm:opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+          <span class="text-white text-lg">Overlay Text</span>
+        </div>
+      </div>
+      <div class="relative w-64 h-40 col-span-5 sm:col-span-2">
+        <!-- Image -->
+        <img src="./assets/get-inspired-300x150.jpg" alt="Image" class="w-full h-full object-cover">
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black bg-opacity-50 sm:opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+          <span class="text-white text-lg">Overlay Text</span>
+        </div>
+      </div>
+      <div class="relative w-64 h-40 col-span-5 sm:col-span-2 sm:ml-10">
+        <!-- Image -->
+        <img src="./assets/get-inspired-300x150.jpg" alt="Image" class="w-full h-full object-cover">
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black bg-opacity-50 sm:opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+          <span class="text-white text-lg">Overlay Text</span>
+        </div>
+      </div>
+      <div class="col-span-1 sm:col-span-3"></div>
+  
+      <!-- Second Row -->
+      <div class="col-span-1 sm:col-span-2"></div>
+      <div class="col-span-1 sm:col-span-1"></div>
+      <div class="relative w-64 h-40 col-span-5 sm:col-span-2 sm:mr-10">
+        <!-- Image -->
+        <img src="./assets/get-inspired-300x150.jpg" alt="Image" class="w-full h-full object-cover">
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+          <span class="text-white text-lg">Overlay Text</span>
+        </div>
+      </div>
+      <div class="relative sm:w-64 sm:h-40 col-span-5 sm:col-span-2">
+        <!-- Image -->
+        <img src="./assets/get-inspired-300x150.jpg" alt="Image" class="w-full h-full object-cover">
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+          <span class="text-white text-lg">Overlay Text</span>
+        </div>
+      </div>
+      <div class="relative w-64 h-40 col-span-5 sm:col-span-2 sm:ml-10">
+        <!-- Image -->
+        <img src="./assets/get-inspired-300x150.jpg" alt="Image" class="w-full h-full object-cover">
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+          <span class="text-white text-lg">Overlay Text</span>
+        </div>
+      </div>
+      <div class="col-span-1 sm:col-span-1"></div>
+      <div class="col-span-1 sm:col-span-2"></div>
+  
+      <!-- Third Row -->
+      <div class="col-span-1 sm:col-span-2"></div>
+      <div class="col-span-1 sm:col-span-1"></div>
+      <div class="relative w-64 h-40 col-span-5 sm:col-span-2 sm:mr-10">
+        <!-- Image -->
+        <img src="./assets/get-inspired-300x150.jpg" alt="Image" class="w-full h-full object-cover">
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+          <span class="text-white text-lg">Overlay Text</span>
+        </div>
+      </div>
+      <div class="relative w-64 h-40 col-span-5 sm:col-span-2">
+        <!-- Image -->
+        <img src="./assets/get-inspired-300x150.jpg" alt="Image" class="w-full h-full object-cover">
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+          <span class="text-white text-lg">Overlay Text</span>
+        </div>
+      </div>
+      <div class="relative w-64 h-40 col-span-5 sm:col-span-2 sm:ml-10">
+        <!-- Image -->
+        <img src="./assets/get-inspired-300x150.jpg" alt="Image" class="w-full h-full object-cover">
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+          <span class="text-white text-lg">Overlay Text</span>
+        </div>
+      </div>
+      <div class="col-span-1 sm:col-span-1"></div>
+      <div class="col-span-1 sm:col-span-2"></div>
+  
+    </div>
+  </section>
+  
 </body>
 </html>
